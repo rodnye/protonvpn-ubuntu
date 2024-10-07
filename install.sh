@@ -1,7 +1,7 @@
 #! /usr/bin/bash
 
-sudo apt install ./protonvpn-stable-release_1.0.3_all.deb
+sudo dpkg -i ./protonvpn-stable-release_1.0.4_all.deb
 
-sudo apt update
+sudo apt update  
 
 sudo apt install protonvpn-cli
